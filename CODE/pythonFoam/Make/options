@@ -1,0 +1,9 @@
+EXE_INC = \
+    -I/usr/include/python3.10 \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude
+
+EXE_LIBS = \
+    -lpython3.10 \
+    -lfiniteVolume \
+    -lmeshTools
